@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply bg-mist text-deepPurple font-sans;
+}
+
+h1, h2, h3, h4 {
+  @apply font-serif text-deepPurple;
+}
+
+.card {
+  @apply bg-lavender rounded-2xl shadow-lg p-6 transition hover:shadow-xl;
+}
+
+.btn-primary {
+  @apply bg-amethyst text-white px-4 py-2 rounded-full font-semibold hover:bg-deepPurple;
+}
+
+.nav-link {
+  @apply text-deepPurple font-medium hover:underline;
+}

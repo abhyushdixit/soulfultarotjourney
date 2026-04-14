@@ -1,0 +1,23 @@
+{
+  "name": "soulful-tarot",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.0.0",
+    "next": "13.4.12",
+    "nodemailer": "^7.0.3",
+    "nprogress": "^0.2.0",
+    "postcss": "^8.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^9.4.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
